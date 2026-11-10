@@ -1,4 +1,4 @@
-# BpICG
+# BioGCD
 
 Code for **Biology-Guided Multimodal Learning for Compound Discovery and Drug Combination Recommendation** by Jian Wen et al.
 
