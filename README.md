@@ -2,13 +2,13 @@
 
 Code for **Biology-Guided Multimodal Learning for Compound Discovery and Drug Combination Recommendation** by Jian Wen et al.
 
-BpICG predicts drug-induced gene-expression responses using molecular fingerprints, baseline expression, pretrained cell embeddings, drug concentration, and biological priors. Predicted responses support compound prioritization through reversal of disease-associated expression signatures.
+BioGCD predicts drug-induced gene-expression responses using molecular fingerprints, baseline expression, pretrained cell embeddings, drug concentration, and biological priors. Predicted responses support compound prioritization through reversal of disease-associated expression signatures.
 
 ## Scripts
 
 | Script | Purpose |
 | --- | --- |
-| [train_eval_drugs.py](model_training_evaluation/train_eval_drugs.py) | Train and evaluate BpICG at 10 µM using compound-disjoint training, validation, and test splits. |
+| [train_eval_drugs.py](model_training_evaluation/train_eval_drugs.py) | Train and evaluate BioGCD at 10 µM using compound-disjoint training, validation, and test splits. |
 | [train_eval_multidose.py](dose_response_evaluation/train_eval_multidose.py) | Train and evaluate responses across concentrations of `0 < dose <= 100` µM, with compounds held out across all their doses. |
 | [recommend_drugs.py](drug_recommendation/recommend_drugs.py) | Predict candidate responses and rank single compounds by disease-signature reversal. |
 
